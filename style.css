@@ -1,0 +1,75 @@
+/*------------------- contact-sect -------------------*/
+#contact .BORDER h2::after{
+    content: '';
+    height: 1px;
+    width: 120px;
+    display: inline-block;
+    background-color: #ef6603;
+    left: 0;
+    margin: 5px 10px;
+}
+
+#contact .BORDER h2{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: grEY;
+}
+
+#contact .border{
+    border: 1px solid orange !important;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    background-color: #ef6603;
+}
+
+#contact .border:hover{
+    background-color: orangered;
+    color: white;
+}
+
+#contact .btn-primary{
+    background-color: #ef6603 !important;
+    border: none;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#contact .bordere{
+    border: 1px solid #ef6603 !important;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    padding: 9px 10px;
+    margin: 3px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    background-color: #ef6603;
+    transition: 1S;
+}
+
+#contact footer .bg-dark{
+    background-color: #2a2c39 !important;
+}
+
+#contact footer a{
+    color: #ef6603;
+    text-decoration: none;
+}
+
+#contact footer
+p{
+    font-style: italic;
+}
+
+/*------------------- fin contact-sect -------------------*/
