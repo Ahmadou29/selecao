@@ -1,0 +1,51 @@
+/* ------------------- about section -------------------  */
+#about  .borde::after{
+    content: '';
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background-color: orangered;
+    margin: 20px 10px;
+}
+
+#about h2{
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1px;
+}
+
+#about .bi-check2-circle{
+    color: orangered;
+}
+
+#about .button{
+    background-color: orangered !important;
+}
+
+#about .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: orangered !important;
+}
+
+#about .nav-tabs{
+    border: none !important;
+}
+
+#about .nav .icone i{
+    font-size: 60px !important;
+    margin-top: 40px !important;
+}
+
+#about button:hover{
+    background-color: orangered;
+}
+
+#about .bi-check2-all{
+    color: orangered;
+}
+
+#about .bg-dark{
+    background-color: #1d1f28 !important;
+}
+
+/*---------------- fin de la section about ----------------*/
