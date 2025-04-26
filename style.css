@@ -1,0 +1,37 @@
+/*---------------- header section ----------------*/
+header .nav-item{
+    margin: 0 10px;
+}
+
+header nav{
+    background-color: #3A3C48;
+}
+
+header .nav-item .nav-link:hover{
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+.nav-item .nav-link.active{
+    background-color: orangered !important;
+    border-radius: 12px;
+    width: 100% !important;
+}
+
+header{
+    background-color: #3A3C48;
+}
+
+main{
+    padding-top: 13%;
+}
+
+main .border-2{
+    border: 3px solid orangered !important;
+}
+
+main .btn:hover{
+    background-color: orangered;
+}
+
+/* header section */
