@@ -1,114 +1,87 @@
-/*---------------- header section ----------------*/
-header .nav-item{
-    margin: 0 10px;
-}
+/*debut portfolio */
 
-header nav{
-    background-color: #3A3C48;
+hr{
+    height: 10px;
+    width: 100px;
+    color: #EF6603 !important;
 }
-
-header .nav-item .nav-link:hover{
-    background-color: orangered;
-    border-radius: 15px;
+/* .app{
+    
 }
-
-.nav-item .nav-link.active{
-    background-color: orangered !important;
-    border-radius: 12px;
-    width: 100% !important;
+.app:hover{
+    cursor: pointer;
 }
+.app:hover{
+    
+} */
 
-header{
-    background-color: #3A3C48;
+
+
+.app {
+    background-color: #F9F9F9;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .carte:hover .app {
+    opacity: 1;
+  }
+  .tof{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 10% !important; */
 }
+/* .pied{
+    
+    background-color: gray;
+} */
 
-main{
-    padding-top: 13%;
+ .nav-link:hover{
+    color: white !important;
+    background-color: #F17C27 !important;
 }
-
-main .border-2{
-    border: 3px solid orangered !important;
-}
-
-main .btn:hover{
-    background-color: orangered;
-}
-
-/* ------------------- about section -------------------  */
-#about  .borde::after{
-    content: '';
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background-color: orangered;
-    margin: 20px 10px;
-}
-
-#about h2{
-    font-weight: 500;
-    letter-spacing: 2px;
-    line-height: 1px;
-}
-
-#about .bi-check2-circle{
-    color: orangered;
-}
-
-#about .button{
-    background-color: orangered !important;
-}
-
-#about .nav-link:hover{
+/*button.active:hover{
+    color: #EF6603 !important;
+    background-color: #F17C27 !important;
+} */
+ .nav-link{
+    margin: 0 5px;
+    background-color: transparent !important;
     color: black !important;
-    background-color: orangered;
-    color: #fff !important;
+ }
+ .web{
+    margin-top: -600px !important;
+ }
+ .nav-app{
+    margin-bottom: -600px !important;
+ }
+ .nav-all{
+    margin-bottom: -600px !important;
+ }
+ a .bi:hover{
+color: #EF6603;
+ }
+
+.accordion-button:hover{
+    color: #EF6603;
+    /* transition: background-color 0.3s; */
 }
-#about .nav-link{
-    color: black !important;
-    background-color: transparent;
+ /* .accordion-button:not(.collapsed) {
+    color: #EF6603;
+ } */
 
-}
-
-#about .nav-tabs{
-    border: none !important;
-}
-
-#about .nav .icone i{
-    font-size: 60px !important;
-    margin-top: 40px !important;
-}
-
-#about button .active{
-    color: black !important;
-}
-
-#about .bi-check2-all{
-    color: orangered;
-}
-
-#about .bg-dark{
-    background-color: #1d1f28 !important;
-}
-
-/*---------------- fin de la section about ----------------*/
-
-
-/* services section */
-#service .BORDERS h2::after{
-    content: '';
-    width: 120px;
-    height: 1px;
-    background-color: orangered;
-    display: inline-block;
-    margin: 6px  10px;
-}
-
-#service a{
-    text-decoration: none;
-}
-
-#service .card i{
-    font-size: 65px;
-}
-
-/* fin de la section Services */
+ 
+ @media screen and (max-width: 768px) {
+    .web{
+        margin-top: -1100px !important;
+        
+     }
+     .nav-app{
+        margin-bottom: -1100px !important;
+     }
+     .nav-all{
+        margin-bottom: -1100px !important;
+     }
+   
+  }
+  /* fin portfolio */

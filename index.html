@@ -1,447 +1,712 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Selecao</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-</head>
-
-<body>
-  <!----------------------------- section header  ----------------------------->
-  <header class="h-100 w-100">
-    <nav class="navbar navbar-expand-lg text-center fixed-top text-center h-10 ">
-      <div class="container py-3">
-        <a class="navbar-brand text-white fs-3 fw-bolder display-5" href="#">Selecao</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav me-5">
-            <li class="nav-item fw-bolder">
-              <a class="nav-link active text-white fw-bold" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#service">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#team">Team</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item text-white" href="#">Action</a></li>
-                <li><a class="dropdown-item text-white" href="#">Another action</a></li>
-                <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn px-3 text-white me-3" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main id="home">
-      <div class="container-fluid py-5">
-        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active text-center text-white py-4">
-              <h1 class="display-4 fw-bold">Sequi ea ut et est quaerat</h1>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut <br>
-                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque <br> accusamus
-                repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <button type="button" class="btn border border-2 mt-3 rounded-4 text-white fw-bold px-4 py-2 w-10">Read
-                More</button>
-
-            </div>
-            <div class="carousel-item text-center text-white">
-              <h1 class="display-4 fw-bold">Welcome to <span class="border-bottom border-4">Selecao</span></h1>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut <br>
-                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque <br> accusamus
-                repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <button type="button" class="btn border border-2 mt-3 rounded-4 text-white fw-bold px-4 py-2  w-10">Read
-                More</button>
-
-            </div>
-            <div class="carousel-item text-center text-white">
-              <h1 class="display-4 fw-bold">Lorem Ipsum Dolor</h1>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut <br>
-                aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque <br> accusamus
-                repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <button type="button" class="btn border border-2 mt-3 rounded-4 text-white fw-bold px-4 py-2 w-10">Read
-                More</button>
-
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </main>
-  </header>
-
-  <!---------------------- about section ---------------------->
-  <section id="about" class="py-5">
-    <div class="container">
-      <div class="d-flex">
-        <h3 class="fw-lighter text-secondary">ABOUT</h3>
-        <div class="borde"></div>
-      </div>
-      <h3 class="display">WHO WE ARE</h3>
-      <div class="row py-5">
-        <div class="col-md-6">
-          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</P>
-          <p><i class="bi bi-check2-circle pe-1 fs-5"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><i class="bi bi-check2-circle pe-1 fs-5"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p><i class="bi bi-check2-circle pe-1 fs-5"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        </div>
-        <div class="col-md-6">
-          <P>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.</P>
-          <button type="button" class="btn text-white mt-3 button">Read More <i
-              class="bi bi-arrow-right ps-2"></i></button>
-        </div>
-      </div>
-    </div>
-    <!----------------- deuxiemes partie nav-tabs ----------------->
-    <div id="" class="container">
-      <div class="row">
-        <div class="col-12">
-          <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-            <li class="nav-item " role="presentation">
-              <button class="nav-link active me-md-4 text-white" id="home-tab" data-bs-toggle="tab"
-                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-                aria-selected="true">
-                <div class="d-flex px-3 text-center">
-                  <div class="icone">
-                    <i class="bi bi-binoculars"></i>
-                  </div>
-                  <div class="text mt-3 fs-6">
-                    <p> Modi sit est dela <br> pireda nest</p>
-                  </div>
-                </div>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link me-md-4 text-dark" id="profile-tab" data-bs-toggle="tab"
-                data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
-                aria-selected="false">
-                <div class="d-flex px-3 text-center">
-                  <div class="icone">
-                    <i class="bi bi-box-seam"></i>
-                  </div>
-                  <div class="text mt-3 ms-3">
-                    <p>Unde praesenti <br> mara setra le</p>
-                  </div>
-                </div>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link me-md-4 text-dark" id="contact-tab" data-bs-toggle="tab"
-                data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
-                aria-selected="false">
-                <div class="d-flex px-3 text-center">
-                  <div class="icone">
-                    <i class="bi bi-brightness-high"></i>
-                  </div>
-                  <div class="text mt-3 ms-2">
-                    <p> Pariatur explica <br> nitro dela</p>
-                  </div>
-                </div>
-              </button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link me-md-4 text-dark" id="info-tab" data-bs-toggle="tab"
-                data-bs-target="#info-tab-pane" type="button" role="tab" aria-controls="info-tab-pane"
-                aria-selected="false">
-                <div class="d-flex px-3 text-center">
-                  <div class="icone">
-                    <i class="bi bi-command"></i>
-                  </div>
-                  <div class="text mt-4 ms-3">
-                    <p> Nostrum qui dile <br> node</p>
-                  </div>
-                </div>
-        </div>
-        </button>
-        </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-            tabindex="0">
-            <div class="container py-5">
-              <div class="row">
-                <div class="col-md-6">
-                  <h4 class="fs-3">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                    pariatur.</p>
-                  <p class="mt-3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-md-6">
-                  <img src="images/working-1.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-            <div class="container py-5">
-              <div class="row">
-                <div class="col-md-6 py-3">
-                  <h4 class="fs-3">Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
-                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
-                    Ipsum neque dolor voluptate nisi sed.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                    est laborum</p>
-                </div>
-
-                <div class="col-md-6">
-                  <img src="images/working-2.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-            <div class="container py-5">
-              <div class="row">
-                <div class="col-md-6 py-3">
-                  <h4 class="fs-4">Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h4>
-                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
-                    Ipsum neque dolor voluptate nisi sed.</p>
-                  <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</P>
-                </div>
-                <div class="col-md-6">
-                  <img src="images/working-3.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="info-tab-pane" role="tabpanel" aria-labelledby="info-tab" tabindex="0">
-            <div class="container py-5">
-              <div class="row">
-                <div class="col-md-6 py-3">
-                  <h4 class="fs-3">Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
-                  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </p>
-                  <p><i class="bi bi-check2-all pe-1"></i> Provident mollitia neque rerum asperiores dolores quos qui a.
-                    Ipsum neque dolor voluptate nisi sed.</p>
-                  <p><i class="bi bi-check2-all pe-1"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
-                </div>
-                <div class="col-md-6 py-2">
-                  <img src="images/working-4.jpg" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!----------------- troisiemes parties ----------------->
-    <section class="container-fluid text-white py-5 bg-dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Selecao</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- debut porfolio -->
+     <section id="portfolio">
       <div class="container">
-        <div class="row mt-5">
-          <div class="col-md-8">
-            <h2>Call To Action</h2>
-            <p class="py-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
+        <div class="d-flex">
+          <p>Portofolio</p>
+          <hr>
+        </div>
+        <h3 class="fw-bold">What we've done</h3>
+
+
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active text-dark" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-app-tab" data-bs-toggle="pill" data-bs-target="#pills-app" type="button" role="tab" aria-controls="pills-app" aria-selected="false">App</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-card-tab" data-bs-toggle="pill" data-bs-target="#pills-card" type="button" role="tab" aria-controls="pills-card" aria-selected="false">Card</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="false">web</button>
+          </li>
+          
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <!-- debut ALL -->
+          <div class="tab-pane fade show active nav-all" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">App 1</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">Branding 2</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5>App 2</h5>
+                      <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">Product 2</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">Branding 3</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="carte">
+                      <img src="images/masonry-portfolio-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body app d-flex justify-content-between">
+                        <div>
+                          <h5>App 3</h5>
+                        <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+
+                    <div class="carte">
+                      <img src="images/masonry-portfolio-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body app d-flex justify-content-between">
+                        <div>
+                          <h5>App 2</h5>
+                        <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+
+                    <div class="carte">
+                      <img src="images/masonry-portfolio-7.jpg" class="card-img-top" alt="..." style="height: 200px;">
+                      <div class="card-body app d-flex justify-content-between">
+                        <div>
+                          <h5>App 3</h5>
+                        <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+
+                    <div class="carte">
+                      <img src="images/masonry-portfolio-8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body app d-flex justify-content-between">
+                        <div>
+                          <h5>Product 3</h5>
+                        <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                        
+                      </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+              </div>
+          </div>
+          <!-- fin ALL -->
+           <!-- debut App -->
+          <div class="tab-pane fade nav-app" id="pills-app" role="tabpanel" aria-labelledby="pills-app-tab">
+      
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">App 1</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5>App 2</h5>
+                      <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="carte">
+                      <img src="images/masonry-portfolio-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body app d-flex justify-content-between">
+                        <div>
+                          <h5>App 3</h5>
+                        <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                          <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                        
+                        
+                      </div>
+                    </div>
+                    </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            
 
           </div>
-          <div class="col-md-4">
-            <button type="button" class="btn text-white mt-3 button rounded-5 mx-5 m-4 p-3 w-75">Call To Action</button>
+          <!-- fin App -->
+           <!-- DEBUT Card -->
+          <div class="tab-pane fade" id="pills-card" role="tabpanel" aria-labelledby="pills-card-tab">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">App 1</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5>App 2</h5>
+                      <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="carte" >
+                      
+                      <img src="images/masonry-portfolio-8.jpg" class="card-img-top" alt="...">
+                      <div class="d-flex justify-content-between">
+                        <div class="app">
+                          <h5>App 3</h5>
+                          <p>Lorem ipsum, dolor sit</p>
+                        </div>
+                        <div>
+                          <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                          <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    </div>
+
+                </div>
+
+              </div>
+          </div>
+          <!-- fin card -->
+           <!-- debut web -->
+          <div class="tab-pane fade web" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-md-4">
+
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">Branding 1</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-md-4">
+                  <div class="carte">
+                    <img src="images/masonry-portfolio-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5>Branding 2</h5>
+                      <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                      
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="col-md-4">
+                     <div class="carte">
+                    <img src="images/masonry-portfolio-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body app d-flex justify-content-between">
+                      <div>
+                        <h5 class="card-title">Branding 3</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit</p>
+                      </div>
+                      <div>
+                        <a href="" class="text-dark"><i class="bi bi-search"></i></a>
+                        <a href="" class="text-dark"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+                    </div>
+
+                </div>
+
+              </div>
+          </div>
+         <!-- fin web -->
+        </div>
+
+       
+              
+
+      </div>
+      <!-- debut Testimonial -->
+       <div class="container mt-0 pt-0">
+        <div class="d-flex">
+          <p>TESTIMONIALS</p>
+          <hr>
+        </div>
+        <h3 class="fw-bold">What they are saying about us</h3>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-lg-4 bordur">
+                    <div class="tof"><img src="images/testimonials-1.jpg" class="d-block rounded-pill tof" alt="..."></div>
+                    <h2>Saul Goodman</h2>
+                    <h4 class="text-muted">Ceo & Founder</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Proin iaculis purus consequat sem <br> cure digni ssim donec porttitora entum <br>
+                      suscipit rhoncus. Accusantium quam, <br> ultricies eget id, aliquam eget nibh et . <br>
+                      Maecen aliquam, risus at semper.  
+                    </p>
+                  </div>
+    
+                  <div class="col-lg-4 bordur">
+                   <img src="images/testimonials-2.jpg" class="d-block rounded-pill tof" alt="...">
+                   <h2>Sara Wilson</h2>  
+                    <h4 class="text-muted">Designer</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Export tempor illum tamen malis malis <br> eram quae irure esse labore <br>
+                       quem cillum quid cillum eram malis <br> quorum velit fore eram velit sunt aliqua <br>
+                        noster fugiat irure amet legam anim <br> culpa.  
+                    </p>
+                  </div>
+    
+    
+                  <div class="col-lg-4 bordur">
+                    <img src="images/testimonials-3.jpg" class="d-block  rounded-pill tof" alt="...">
+                    <h2>Jena Karils</h2>
+                    <h4 class="text-muted">Store Owner</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                       Enim nisi quem export duis labore <br> cillum quae magna enim sint quorum <br>
+                        nulla quem veniam duis minim tempor <br> labore quem eram duis noster aute <br>
+                         amet eram fore quis sint minim.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              
+            </div>
+    
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-lg-4 bordur">
+                    <img src="images/testimonials-4.jpg" class="d-block rounded-pill tof" alt="...">
+                    <h2>Matt Brandon</h2>
+                    <h4 class="text-muted">Freelancer</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                       Fugiat enim eram quae cillum <br> dolore dolor amet nulla culpa multos <br>
+                        export minim fugiat minim velit minim <br> dolor enim duis veniam ipsum anim <br>
+                         magna sunt elit fore quem dolore <br> labore illum veniam. 
+                    </p>
+                  </div>
+    
+    
+                  <div class="col-lg-4">
+                    <img src="images/testimonials-5.jpg" class="d-block rounded-pill tof" alt="...">
+                    <h2>John Larson</h2>
+                    <h4 class="text-muted">Entrepreneur</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>
+                       Quis quorum aliqua sint quem <br> legam fore sunt eram irure aliqua <br>
+                        veniam tempor noster veniam enim <br> culpa labore duis sunt culpa nulla illum <br>
+                         cillum fugiat legam esse veniam culpa <br> fore nisi cillum quid. 
+                    </p>
+                  </div>
+    
+                  <div class="col-lg-4 bordur">
+                    <div class="tof"><img src="images/testimonials-1.jpg" class="d-block rounded-pill tof" alt="..."></div>
+                    <h2>Saul Goodman</h2>
+                    <h4 class="text-muted">Ceo & Founder</h4>
+                    <div class="d-flex text-warning">
+                      <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p>Proin iaculis purus consequat sem <br> cure digni ssim donec porttitora entum <br>
+                      suscipit rhoncus. Accusantium quam, <br> ultricies eget id, aliquam eget nibh et . <br>
+                      Maecen aliquam, risus at semper.  
+                    </p>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+    
+          </div>
+  
+        </div>
+
+       </div>
+       <!-- fin testimonial -->
+
+       <!-- debut pricing -->
+       <div class="container mt-0 pt-0">
+        <div class="d-flex">
+          <p>TESTIMONIALS</p>
+          <hr>
+        </div>
+        <h3 class="fw-bold">What they are saying about us</h3>
+
+        <div class="container">
+          <div class="row my-5 align-items-center justify-content-center">
+            <div class="col-md-3">
+              <div class="card ">
+                <div class="card-header text-center">Free</div>
+                <div class="card-body text-center m-0 p-0">
+                  
+
+                  <p class="fw-bold">$0 <span class="text-muted fs-5">/ month</span></p>
+                  
+                  <p class="card-teXt   d-none d-lg-block">  Aida dere</p>
+                  <p class="card-teXt   d-none d-lg-block">  Nec feugiat nisl</p>
+                  <p class="card-teXt   d-none d-lg-block"> Nulla at volutpat dola</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-line-through"> Pharetra massa</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-line-through">  Massa ultricies mi</p>
+
+                  <div class="bg-light pt-2">
+                    <a href="#" class="btn  btn-lg mb-2 text-white" style="background-color: #EF6603;">
+                      Buy Now
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header text-center text-white" style="background-color: #EF6603;">Business</div>
+                <div class="card-body text-center m-0 p-0">
+                  
+                  <p class="fw-bold">$19  <span class="text-muted">/month</span></p>
+                  
+                  <p class="card-teXt   d-none d-lg-block">  Aida dere</p>
+                  <p class="card-teXt   d-none d-lg-block">  Nec feugiat nisl</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-throught"> Nulla at volutpat dola</p>
+                  <p class="card-teXt   d-none d-lg-block"> Pharetra massa</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-line-through"> Massa ultricies mi</p>
+
+                  <div class="bg-light pt-2">
+                    <a href="#" class="btn  btn-lg mb-2 text-white" style="background-color: #EF6603;">
+                      Buy Now
+                    </a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header">Developer</div>
+                <div class="card-body text-center  m-0 p-0">
+                  
+                  <p class=" fw-bold ">$29 <span class="text-muted">/month</span></p>
+                  
+                  <p class="card-teXt   d-none d-lg-block"> Aida dere</p>
+                  <p class="card-teXt   d-none d-lg-block">  Nec feugiat nisl</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-throught">Nulla at volutpat dola</p>
+                  <p class="card-teXt   d-none d-lg-block"> Pharetra massa</p>
+                  <p class="card-teXt   d-none d-lg-block">  Massa ultricies mi</p>
+
+                  <div class="bg-light pt-2">
+                    <a href="#" class="btn  btn-lg mb-2 text-white" style="background-color: #EF6603;">
+                      Buy Now
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-header text-center ">Ultimate</div>
+                <div class="card-body text-center m-0 p-0">
+                  
+                  <p class="fw-bold ">$49 <span class="">/month</span></p>
+                  
+                  <p class="card-teXt   d-none d-lg-block">  Aida dere</p>
+                  <p class="card-teXt   d-none d-lg-block">  Nec feugiat nisl</p>
+                  <p class="card-teXt   d-none d-lg-block text-decoration-throught"> Nulla at volutpat dolo</p>
+                  <p class="card-teXt   d-none d-lg-block"> Pharetra massa</p>
+                  <p class="card-teXt   d-none d-lg-block">  Massa ultricies mi</p>
+                  
+                  <div class=" bg-light ">
+                    <a href="#" class="btn  btn-lg mt-3 text-white mb-2" style="background-color: #EF6603;">
+                      Buy Now
+                    </a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+  
           </div>
         </div>
+
       </div>
-    </section>
-  </section>
-  <!--------------- fin de section about --------------->
+        <!-- fin pricing -->
+
+        <!-- debut question -->
+         <div class="container">
 
 
-  <!---------------- Services section ---------------->
-  <section id="service" class="py-2 container-fluid bg-light">
-    <div class="BORDERS container">
-      <h2 class="fs-3 text-secondary">Services</h2>
-      <h3>WHAT WE DO OFFER</h3>
-    </div>
-
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3">
-                  <i class="bi bi-cash-stack" style="color: #0dcaf0;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Nesciunt Mte</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  How to download and register
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in <br>
+                     Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                 </div>
               </div>
             </div>
-          </a>
-        </div>
-
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3 mt-3">
-                  <i class="bi bi-calendar4-week" style="color: #fd7e14;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Eosle Commodi</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  How to create your paypal account?
+                </button>
+              </h2>
+              
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  How to link your paypal and bank account?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline <br>
+                     of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
                 </div>
               </div>
             </div>
-          </a>
-        </div>
+          </div>
+         </div>
+         <!-- fin question -->
 
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3 mt-3">
-                  <i class="bi bi-chat-text" style="color: #20c997;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Ledo Mark</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3 mt-3">
-                  <i class="bi bi-credit-card-2-front" style="color: #df1529;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Velit Doloremque</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
+     </section>
+     <!-- fin portfolio -->
+    
 
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3 mt-3">
-                  <i class="bi bi-globe" style="color: #6610f2;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Dolori Architecto</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="col-md-4 my-3">
-          <a href="#">
-            <div class="card shadow py-2 rounded-3">
-              <div class="row mt-3">
-                <div class="col-md-3 mt-3">
-                  <i class="bi bi-clock" style="color: #f3268c;"></i>
-                </div>
-                <div class="col-md-9">
-                  <h4 class="fs-3 fw-bold">Nesciunt Mte</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro fugiat atque, mollitia quia
-                    deleniti molestiae alias iste minima? Modi, sapiente!</p>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!------------------ fin de section services ------------------>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
 </html>
