@@ -1,0 +1,19 @@
+/* services section */
+#service .BORDERS h2::after{
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: orangered;
+    display: inline-block;
+    margin: 6px  10px;
+}
+
+#service a{
+    text-decoration: none;
+}
+
+#service .card i{
+    font-size: 65px;
+}
+
+/* fin de la section Services */
