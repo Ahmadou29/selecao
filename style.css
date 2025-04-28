@@ -90,6 +90,12 @@ main .btn:hover{
     background-color: #1d1f28 !important;
 }
 
+@media screen and (max-width: 768px){
+    .text{
+        display: none !important;
+    }
+}
+
 /*---------------- fin de la section about ----------------*/
 
 
@@ -110,5 +116,4 @@ main .btn:hover{
 #service .card i{
     font-size: 65px;
 }
-
 /* fin de la section Services */
