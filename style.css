@@ -35,9 +35,6 @@ main .btn:hover{
     background-color: orangered;
 }
 
-
-/* header section */
-
 /* ------------------- about section -------------------  */
 #about  .borde::after{
     content: '';
@@ -62,12 +59,6 @@ main .btn:hover{
     background-color: orangered !important;
 }
 
-/* #about .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    border: none !important;
-    color: #1d1f28 !important;
-    background-color: orangered !important;
-} */
-
 #about .nav-link:hover{
     color: black !important;
     background-color: orangered;
@@ -89,7 +80,6 @@ main .btn:hover{
 }
 
 #about button .active{
-    /* background-color: orangered; */
     color: black !important;
 }
 
