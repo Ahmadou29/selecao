@@ -34,4 +34,8 @@ main .btn:hover{
     background-color: orangered;
 }
 
+header span{
+    /* border-bottom: 3px solid white ; */
+}
+
 /* header section */
