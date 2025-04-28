@@ -3,6 +3,7 @@
 hr{
     height: 10px;
     width: 100px;
+    margin-left: 5px !important;
     color: #EF6603 !important;
 }
 /* .app{
@@ -20,7 +21,7 @@ hr{
 .app {
     background-color: #F9F9F9;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    /* transition: opacity 0.3s ease; */
   }
 
   .carte:hover .app {
@@ -66,9 +67,9 @@ color: #EF6603;
     color: #EF6603;
     /* transition: background-color 0.3s; */
 }
- /* .accordion-button:not(.collapsed) {
+ .accordion-button:active {
     color: #EF6603;
- } */
+ } 
 
  
  @media screen and (max-width: 768px) {
@@ -84,4 +85,4 @@ color: #EF6603;
      }
    
   }
-  /* fin portfolio */
+  /* fin */
