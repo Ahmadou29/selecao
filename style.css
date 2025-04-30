@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-/---------------- header section ----------------/
+
+/* /---------------- header section ----------------/ */
 header .nav-item{
     margin: 0 10px;
 }
@@ -125,11 +125,13 @@ main .btn:hover{
 
 /*debut portfolio */
 
-hr{
-    height: 20px !important;
+#portfolio  .borde::after{
+    content: '';
     width: 120px;
-    margin-left: 5px !important;
-    color: #EF6603 !important;
+    height: 1px;
+    display: inline-block;
+    background-color: orangered;
+    margin: 20px 10px;
 }
 .app{
     background-color: orangered; 
