@@ -136,6 +136,10 @@ hr{
     opacity: 0;  
 }
 
+.bi-star-fill{
+    color: #ef6603 !important;
+}
+
 .carte:hover .app{
     opacity: 1;
 }
